@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey - About</title>
+    <link rel="stylesheet" href="/static/about.css">
+    <link rel="shortcut icon" type="x-icon" href="/static/logo/S-logos_white.png">
+
+
+    <script src="/static/about.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("pl4xsNt3gYDp6Gklv");
+        })();
+    </script>
+</head>
+
+<body>
+    <div class="peri">
+
+        <nav id="navbar">
+            <div class="nav-first">
+                <ul class="first">
+                    <li><a href="/views/index.ejs">Journey</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <form onsubmit="SendMail(); reset(); return false;">
+                <input type="text" class="contain" id="name" placeholder="Name" required>
+                <input type="email" class="contain" id="email" placeholder="Email Id" required>
+                <input type="text" class="contain" id="phone" placeholder="Phone No" required>
+                <textarea class="contain" id="message" rows="4" placeholder="How can I help you ?"></textarea>
+                <button class="submit">Send</button>
+            </form>
+        </div>
+
+        <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function startMailing() {
+                Email.send({
+                    Host: "smtp.gmail.com",
+                    Username: "project.9127@gmail.com",
+                    Password: "E8E3833FF3BF566D6FBCC35BD39E97165545",
+                    To: 'project.9127@gmail.com',
+                    From: document.getElementById("email").value,
+                    Subject: "Journey website - Contact",
+                    Body: "Name : " + document.getElementById("name").value +
+                        "<br> Email : " + document.getElementById("email").value +
+                        "<br> Phone : " + document.getElementById("phone").value +
+                        "<br> Message : " + document.getElementById("message").value
+                }).then(
+                    message => alert(message)
+                );
+            }
+        </script> -->
+
+    </div>
+
+
+</body>
+
+</html>

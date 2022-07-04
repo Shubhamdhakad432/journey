@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Journey - Game
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/static/path1.css">
+    <link rel="stylesheet" href="/static/path2_grid.css">
+    <link rel="shortcut icon" type="x-icon" href="/static/logo/S-logos_white.png">
+</head>
+
+<body>
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="/views/migame.ejs" class="logo">
+                    <span class="main-color">Mi</span> Application
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="/views/index.ejs">Journey</a></li>
+                    <li><a href="/views/path.ejs">Path</a></li>
+                    <li>
+                        <a href="/views/about.ejs" class="btn btn-hover">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-section">
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+
+                <div class="hero-slide-item">
+                    <img src="/static/migame/nav_1.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Tic Tac Toe
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>7.5</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Small Game</span>
+                                </div>
+                                <!-- <div class="movie-info">
+                                    <span>DSA</span>
+                                </div> -->
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Tic Tac Toe a game which in grid of 3X3 with character X and O
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="/views/tic_tac.ejs"
+                                    class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Let Play</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    Games
+                </div>
+                <div class="movies-slide carousel-nav-center owl-carousel">
+
+                    <a href="/views/tic_tac.ejs" class="movie-item">
+                        <img src="/static/migame/tic-tac.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Tic Tac Toe
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>1 min</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="/views/tic_tac.ejs" class="movie-item">
+                        <img src="/images/topic/url.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Url Shortener
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Retrench URL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="copyright">
+            Copyright &copy; Journey All rights reserved!
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous"></script>
+        <script src="/static/path.js"></script>
+
+</body>
+
+</html>

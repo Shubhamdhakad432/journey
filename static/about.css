@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Kalam:wght@700&family=Nanum+Gothic&family=Nunito+Sans&family=Oooh+Baby&family=Permanent+Marker&family=Sarabun:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* perimeter */
+
+.peri {
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  max-width: 750px;
+  width: 100%;
+  background-color: black;
+  border-radius: 9px;
+}
+
+/* Navigation */
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-first {
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first {
+  width: 20%;
+  justify-content: left;
+}
+
+.first li {
+  margin: auto 0px;
+}
+
+.first a {
+  padding: 12px 30px;
+  font-size: 22px;
+  color: rgb(250, 250, 250);
+  background-color: rgb(78, 78, 80);
+  border-radius: 10px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.first a:hover {
+  padding: 12px 30px;
+  font-size: 22px;
+  color: rgb(2, 154, 255);
+  background-color: rgb(247, 247, 247);
+  border-radius: 10px;
+  font-family: "Nanum Gothic", sans-serif;
+  text-decoration: none;
+}
+
+/* from */
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.container form{
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  border: 10px;
+}
+
+.contain{
+  border: 0;
+  margin: 10px 0px;
+  padding: 20px;
+  outline: none;
+  background-color: #000000;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+}
+
+.contain::selection{
+  border: 0;
+  margin: 10px 0px;
+  padding: 20px;
+  outline: none;
+  background-color: #000000;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+}
+
+.submit{
+  padding: 15px;
+  background-color: #ff5361;
+  color: white;
+  font-size: 18px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto;
+  border-radius: 10px;
+}

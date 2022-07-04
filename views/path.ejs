@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Journey - Path
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/static/path1.css">
+    <link rel="stylesheet" href="/static/path2_grid.css">
+    <link rel="shortcut icon" type="x-icon" href="/static/logo/S-logos_white.png">
+</head>
+
+<body>
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="/views/path.ejs" class="logo">
+                    Programming <span class="main-color">Plat</span>From
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="/views/index.ejs">Journey</a></li>
+                    <li><a href="/views/migame.ejs">Application</a></li>
+                    <li>
+                        <a href="/views/about.ejs" class="btn btn-hover">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-section">
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
+
+                <div class="hero-slide-item">
+                    <img src="/images/topic/gfg_main.png" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Geek For Geeks
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.4</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Provide daily Question</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>DSA</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Daily question on Geeksforgeeks update on every mid night and
+                                this should be your habbit to do this on each and every day
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://practice.geeksforgeeks.org/explore?page=1&sortBy=submissions"
+                                    class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Solve Question</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-slide-item">
+                    <!-- <img src="https://assets.leetcode.com/contest/weekly-contest-290/card_img_1654267980.png" alt=""> -->
+                    <img src="/images/topic/LeetCode_main.jpeg" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Leet Code
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.5</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Provide daily Question</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>DSA</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Daily question on LeetCode update on 5:00 AM GMT+5:30 and
+                                this should be your habbit to do this on each and every day
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="https://leetcode.com/problemset/all/" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Solve Question</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    Contest
+                </div>
+                <div class="movies-slide carousel-nav-center owl-carousel">
+                    <!-- MOVIE ITEM -->
+                    <a href="https://clist.by/" class="movie-item">
+                        <img src="/images/topic/clist.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Clist
+                            </div>
+                            <div class="movie-infos">
+                                <!-- <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.5</span>
+                            </div> -->
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Frequently</span>
+                                </div>
+                                <!-- <div class="movie-info">
+                                <span>Many</span>
+                            </div> -->
+                                <!-- <div class="movie-info">
+                                <span>16+</span>
+                            </div> -->
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.codechef.com/" class="movie-item">
+                        <img src="/images/topic/cc.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Code Chef
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Monthly</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://codeforces.com/contests" class="movie-item">
+                        <img src="/images/topic/cf.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Code Forces
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Frequently</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://leetcode.com/contest/" class="movie-item">
+                        <img src="/images/topic/leetcode.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Leet Code
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Weekly</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://codingcompetitions.withgoogle.com/" class="movie-item">
+                        <img src="/images/topic/google.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Google
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Long Time Gap</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.facebook.com/codingcompetitions" class="movie-item">
+                        <img src="/images/topic/facebook.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                FaceBook
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Long Time Gap</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.codingninjas.com/codestudio/contests" class="movie-item">
+                        <img src="/images/topic/codingNinja.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Coding Ninja
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Weekly</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.hackerearth.com/challenges/" class="movie-item">
+                        <img src="/images/topic/hackerRank.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Hacker Rank
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Frequently</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://codedrills.io/contests" class="movie-item">
+                        <img src="/images/topic/codeDrill.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Code Drill
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Frequently</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    Prepare By Topics
+                </div>
+                <div class="movies-slide carousel-nav-center owl-carousel">
+                    <a href="https://www.hackerrank.com/dashboard" class="movie-item">
+                        <img src="/images/topic/HR.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Hacker Rank
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.5</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Selective Topic</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>CP</span>
+                                </div>
+                                <!-- <div class="movie-info">
+                            <span>16+</span>
+                        </div> -->
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://450dsa.com/" class="movie-item">
+                        <img src="/images/topic/dsa.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                DSA 360
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.1</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>All Basic Topic</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Interview</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://leetcode.com/study-plan/" class="movie-item">
+                        <img src="/images/topic/leetcode.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Leet Code
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.8</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Selective Topic</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Interview</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://practice.geeksforgeeks.org/home" class="movie-item">
+                        <img src="/images/topic/gfg.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                geeksforgeeks
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.1</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Selective Topic </span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Company</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>16+</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.spoj.com/problems/classical/" class="movie-item">
+                        <img src="/images/topic/s.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Sphere Online judge
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>7.3</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>All Topic</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Preparation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.interviewbit.com/practice/" class="movie-item">
+                        <img src="/images/topic/interview.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Interview Bit
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>9.1</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>All Topic</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Interview</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.hackerearth.com/practice/" class="movie-item">
+                        <img src="/images/topic/hackerEarth.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Hacker Earth
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.2</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>DSA</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Preparation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.codingninjas.com/codestudio" class="movie-item">
+                        <img src="/images/topic/codingNinja.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Coding Ninja
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.1</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>DSA</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Preparation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://codedrills.io/community/dashboard" class="movie-item">
+                        <img src="/images/topic/codeDrill.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Code Drill
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.1</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>DSA</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>Preparation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    Problem Set
+                </div>
+                <div class="movies-slide carousel-nav-center owl-carousel">
+                    <a href="https://leetcode.com/problemset/all/" class="movie-item">
+                        <img src="/images/topic/leetcode.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Leet Code
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.5</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>2000+ Questions</span>
+                                </div>
+                                <!-- <div class="movie-info">
+                                <span>HD</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>16+</span>
+                            </div> -->
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.codingninjas.com/codestudio/problem-lists" class="movie-item">
+                        <img src="/images/topic/codingNinja.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Coding Ninja
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.3</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>2000+ Questions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.spoj.com/problems/classical/" class="movie-item">
+                        <img src="/images/topic/s.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Sphere Online Judge
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.8</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>4266+ Questions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://codeforces.com/problemset" class="movie-item">
+                        <img src="/images/topic/cf.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Code Forces
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>8.5</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>4000+ Questions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://clist.by/problems/" class="movie-item">
+                        <img src="/images/topic/clist.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Clist
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>7.8</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Counting</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://unstop.com/coding/practice" class="movie-item">
+                        <img src="/images/topic/un.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Unstop : D2C
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>7.9</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Counting</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://codedrills.io/problems" class="movie-item">
+                        <img src="/images/topic/codeDrill.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Code Drill
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>7.9</span>
+                                </div>
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>196+ Questions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="hero-slide-item">
+                <img src="/images/topic/inter.avif" alt="">
+                <div class="overlay"></div>
+                <div class="hero-slide-item-content">
+                    <div class="item-content-wraper">
+                        <div class="item-content-title">
+                            Interview
+                        </div>
+                        <div class="movie-infos">
+                            <div class="movie-info">
+                                <i class="bx bxs-star"></i>
+                                <span>9.2</span>
+                            </div>
+                            <div class="movie-info">
+                                <i class="bx bxs-time"></i>
+                                <span>30 min</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>Face To Face</span>
+                            </div>
+                            <div class="movie-info">
+                                <span>All Branch</span>
+                            </div>
+                        </div>
+                        <div class="item-content-description">
+                            Interviewbit provide a special platfrom to test your skill with random person by which you
+                            can judge
+                            your weakness during interview and able to take feedback from your competitor which can help
+                            you to get skilled
+                            in communication part and technical part.
+                        </div>
+                        <div class="item-action">
+                            <a href="https://www.interviewbit.com/peer-mock-interview/" class="btn btn-hover">
+                                <i class="bx bxs-right-arrow"></i>
+                                <span>Let Do it</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="section-header">
+                    Knowledge Platfrom
+                </div>
+                <div class="movies-slide carousel-nav-center owl-carousel">
+                    <a href="https://andreasbm.github.io/web-skills/?compact" class="movie-item">
+                        <img src="/images/topic/webskill.jpg" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Web Skill
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Knowledge Gate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.geeksforgeeks.org/" class="movie-item">
+                        <img src="/images/topic/gfg.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Geeksforgeeks
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Articles</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.w3schools.com/" class="movie-item">
+                        <img src="/images/topic/w3s.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                W3 School
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Language Syntax</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://stackoverflow.com/" class="movie-item">
+                        <img src="/images/topic/stackoverflow.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                stack Overflow
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Question & Answer Website</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/" class="movie-item">
+                        <img src="/images/topic/github.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Code Forces
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Projects Hosting</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://trainings.internshala.com/" class="movie-item">
+                        <img src="/images/topic/is.png" alt="">
+                        <div class="movie-item-content">
+                            <div class="movie-item-title">
+                                Internshala
+                            </div>
+                            <div class="movie-infos">
+                                <div class="movie-info">
+                                    <i class="bx bxs-star"></i>
+                                    <span>Training</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container">
+                <div class="pricing">
+                    <div class="pricing-header">
+                        Premium <span class="main-color">Offer</span>
+                    </div>
+                    <div class="pricing-list">
+                        <div class="row">
+
+                            <div class="col-4 col-md-12 col-sm-12">
+                                <div class="pricing-box hightlight">
+                                    <div class="pricing-box-header">
+                                        <div class="pricing-name">
+                                            Leet Code Premium
+                                        </div>
+                                        <div class="pricing-price">
+                                            $35 <span>/month</span>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-box-content">
+                                        <p>Our monthly plan grants access to all premium features, the best plan for
+                                            short-term subscribers.</p>
+                                    </div>
+                                    <div class="pricing-box-action">
+                                        <a href="https://leetcode.com/subscribe/?ref=lp_pl&source=nav-premium"
+                                            class="btn btn-hover">
+                                            <span>Subscribe</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 col-md-12 col-sm-12">
+                                <div class="pricing-box hightlight">
+                                    <div class="pricing-box-header">
+                                        <div class="pricing-name">
+                                            Free
+                                        </div>
+                                        <div class="pricing-price">
+                                            $0 <span>/month</span>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-box-content">
+                                        <p>Maximum Coding platfrom also offer free access to <span
+                                                class="main-color">Coder</span></p>
+                                    </div>
+                                    <div class="pricing-box-action">
+                                        <a href="#" class="btn btn-hover">
+                                            <span>Access</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 col-md-12 col-sm-12">
+                                <div class="pricing-box hightlight">
+                                    <div class="pricing-box-header">
+                                        <div class="pricing-name">
+                                            Leet Code Premium
+                                        </div>
+                                        <div class="pricing-price">
+                                            $159 <span>/year</span>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-box-content">
+                                        <p>Our monthly plan grants access to all premium features, the best plan for
+                                            short-term subscribers.</p>
+                                    </div>
+                                    <div class="pricing-box-action">
+                                        <a href="https://leetcode.com/subscribe/?ref=lp_pl&source=nav-premium"
+                                            class="btn btn-hover">
+                                            <span>Subscribe</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            Copyright &copy; Journey All rights reserved!
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous"></script>
+        <script src="/static/path.js"></script>
+
+</body>
+
+</html>
