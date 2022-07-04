@@ -5,86 +5,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journey</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <title>
+        Journey
+    </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/static/path1.css">
+    <link rel="stylesheet" href="/static/path2_grid.css">
     <link rel="shortcut icon" type="x-icon" href="/static/logo/S-logos_white.png">
 </head>
 
 <body>
-    <nav id="navbar">
-        <div class="nav-first">
-            <ul class="first">
-                <li><a href="/views/index.ejs">Journey</a></li>
-            </ul>
-            <ul class="second">
-                <li><a href="/views/migame.ejs">Application</a></li>
-                <li><a href="/views/path.ejs">Path</a></li>
-                <li><a href="/views/about.ejs">Contact</a></li>
-            </ul>
-
-        </div>
-        <section id="introSection">
-            <div class="intro-first">Start Collecting Knowlegde About</div>
-            <div class="intro-second">Gaming & studies</div>
-        </section>
-    </nav>
-
-    <section id="intro">
-        <div class="intro">
-            <div class="intro-image"></div>
-            <div class="intro-content">
-                <div class="intro-ab">About ~~</div>
-                <div class="intro-about">
-                    Journey is a way through a senior can share some good and important
-                    information as well as guidance about some specific topic which can help fresh junior
-                    to learn that topic and start their journey to learn more in deep.
-                </div>
-                <div class="intro-miss">Our Mission ~~</div>
-                <div class="intro-about">
-                    Fresh learner which don't know what we should do to start their
-                    journey that type learner can take guidance form here on topic also get information
-                    about when we can use the information and why we are learning this, these type of question can
-                    be
-                    answere over here. also Game which can be provide little relief for stress.
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="/views/path.ejs" class="logo">
+                    Jour<span class="main-color">ney</span>
+                </a>
+                <ul class="nav-menu" id="nav-menu">
+                    <!-- <li><a href="/views/migame.ejs">Application</a></li>
+                    <li><a href="/views/path.ejs">Path</a></li> -->
+                    <li>
+                        <a href="/views/about.ejs" class="btn btn-hover">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section id="content">
-        <div class="title">Content we have ?</div>
+    <div class="hero-section">
+        <div class="hero-slide">
+            <div class="owl-carousel carousel-nav-center" id="hero-carousel">
 
-        <div class="start">
-            <div class="image"></div>
-            <div class="content">
-                <div class="name">Game</div>
-                <div class="about">
-                    <div class="theory">
-                        Fast and quick games which player can select to play
+                <div class="hero-slide-item">
+                    <img src="/images/topic/coding.webp" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Coding platfrom
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Provide Question and knowledge</span>
+                                </div>
+                                <div class="movie-info">
+                                    <span>DSA</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Platfrom page consist of different coding platfrom which offer you contest, problemset and topic vise 
+                                preparation. Also you get to know about some technical platfrom which offer you articles and develop projects.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="/views/path.ejs"
+                                    class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Check it out</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <button class="submit"><a href="/views/migame.ejs">Move</a></button>
                 </div>
-            </div>
-            <div class="line-mark"></div>
-        </div>
 
-        <div class="cal">
-            <div class="line-mark"></div>
-            <div class="content">
-                <div class="name">Coding Sites</div>
-                <div class="about">
-                    <div class="theory">
-                        Quick access to all competitative programming platfrom for new coding programmer
+                <div class="hero-slide-item">
+                    <img src="/images/topic/app.webp" alt="">
+                    <div class="overlay"></div>
+                    <div class="hero-slide-item-content">
+                        <div class="item-content-wraper">
+                            <div class="item-content-title top-down">
+                                Application
+                            </div>
+                            <div class="movie-infos top-down delay-2">
+                                <div class="movie-info">
+                                    <i class="bx bxs-time"></i>
+                                    <span>Provide App</span>
+                                </div>
+                            </div>
+                            <div class="item-content-description top-down delay-4">
+                                Application page consist of some games and different app.
+                            </div>
+                            <div class="item-action top-down delay-6">
+                                <a href="/views/migame.ejs" class="btn btn-hover">
+                                    <i class="bx bxs-right-arrow"></i>
+                                    <span>Check it out</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <button class="submit"><a href="/views/path.ejs">Move</a></button>
                 </div>
             </div>
-            <div class="cal-image"></div>
         </div>
 
-    </section>
+        <div class="copyright">
+            Copyright &copy; Journey All rights reserved!
+        </div>
 
-    <div class="center">Copyright &copy; Journey All rights reserved!</div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous"></script>
+        <script src="/static/path.js"></script>
+
 </body>
 
 </html>
